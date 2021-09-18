@@ -1,0 +1,32 @@
+{
+  "name": "zhfejs-chrome-extension",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:chrome": "vite build --config vite.config.chrome.js",
+    "build:crx": "node scripts/build-crx.js",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "ahooks-vue": "^0.12.0",
+    "axios": "^0.21.4",
+    "lodash-es": "^4.17.21",
+    "naive-ui": "^2.18.2",
+    "normalize.css": "^8.0.1",
+    "three": "0.106.1",
+    "vfonts": "^0.1.0",
+    "vue": "^3.2.6",
+    "vue-router": "4.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.6.1",
+    "@vue/compiler-sfc": "^3.2.6",
+    "crx": "^5.0.1",
+    "sass": "^1.41.0",
+    "vite": "^2.5.4"
+  },
+  "gitHooks": {
+    "commit-msg": "node scripts/verifyCommit.js"
+  }
+}

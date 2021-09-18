@@ -1,0 +1,25 @@
+{
+  "background": {
+    "persistent": true,
+    "scripts": ["assets/js/background.js"]
+  },
+  "browser_action": {
+    "default_icon": "assets/imgs/fe-16.png",
+    "default_popup": "index.html",
+    "default_title": "FFITM 工作台"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "description": "FFITM 工作台",
+  "icons": {
+    "128": "assets/imgs/fe-128.png",
+    "16": "assets/imgs/fe-16.png",
+    "48": "assets/imgs/fe-48.png"
+  },
+  "manifest_version": 2,
+  "name": "FFITM WORKBENCH",
+  "offline_enabled": true,
+  "permissions": ["tabs", "storage", "http://*/", "https://*/", "contextMenus"],
+  "short_name": "FFITM 工作台",
+  "version": "0.3.8.1",
+  "web_accessible_resources": ["*"]
+}

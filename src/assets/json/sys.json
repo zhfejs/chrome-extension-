@@ -1,0 +1,38 @@
+[
+  {
+    "orderId": 1,
+    "systemName": "JENKINS",
+    "url": "http://192.168.17.206:9090",
+    "description": "自动化构建平台"
+  },
+  {
+    "orderId": 2,
+    "systemName": "AIOPS",
+    "url": "http://192.168.7.81:18280/aiops/app/devops/index.html",
+    "description": "devops发布平台"
+  },
+  {
+    "orderId": 3,
+    "systemName": "CMDB",
+    "url": "http://192.168.7.81:18280/aiops/app/cmdb/flowModel/index.ftl",
+    "description": "CMDB资源中心"
+  },
+  {
+    "orderId": 4,
+    "systemName": "GITLAB",
+    "url": "http://192.168.17.205",
+    "description": "代码托管平台"
+  },
+  {
+    "orderId": 5,
+    "systemName": "FFITM-FORM-EXPAND-UI",
+    "url": "http://192.168.7.107:8081/formExpandComponent",
+    "description": "自定义表单扩充组件文档的使用手册"
+  },
+  {
+    "orderId": 6,
+    "systemName": "206-FTP",
+    "url": "http://192.168.17.206/zhenghui",
+    "description": "206-ftp/zhenghui"
+  }
+]
