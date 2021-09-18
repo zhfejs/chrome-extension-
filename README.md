@@ -1,7 +1,19 @@
-# Vue 3 + Vite
+# helper-chrome-extension
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+> FFITM工作小助手谷歌插件
 
-## Recommended IDE Setup
+#### Build Setup
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+``` bash
+# install dependencies
+yarn
+
+# serve 
+yarn dev
+
+# build web application for extension
+yarn build
+
+
+# build chrome extension for production
+yarn build:crx

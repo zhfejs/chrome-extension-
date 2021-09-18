@@ -1,12 +1,13 @@
 {
-  "name": "zhfejs-chrome-extension",
-  "version": "0.0.0",
+  "name": "helper-chrome-extension",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "build:chrome": "vite build --config vite.config.chrome.js",
-    "build:crx": "node scripts/build-crx.js",
-    "serve": "vite preview"
+    "build:crx": "node scripts/buildCrx.js",
+    "serve": "vite preview",
+    "preinstall": "node ./scripts/checkYarn.js"
   },
   "dependencies": {
     "ahooks-vue": "^0.12.0",
